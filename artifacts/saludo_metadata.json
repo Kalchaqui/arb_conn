@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nuevoSaludo",
+						"type": "string"
+					}
+				],
+				"name": "guardarSaludo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "leerSaludo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"saludo.sol": "saludo"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"saludo.sol": {
+			"keccak256": "0x192031a9748fc9eb72dc60688bad47c066e9164a548d577e2b525a2d3f02d088",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a8ba3403a1c75835d4a9422f17d890fe7962883d1d216df5b91fb52f60d0e30",
+				"dweb:/ipfs/QmVPWpuEYY2qu5gJx2fk2xh5c3fkjfNEntt1Einab1WsGi"
+			]
+		}
+	},
+	"version": 1
+}
